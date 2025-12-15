@@ -5,8 +5,9 @@ from threading import Thread
 import json
 
 # =================== CONFIGURACIÓN ===================
-TOKEN = 8514212882:AAH8bybuxrcd1FoqFViLjf01fRgh96WX8ls
-ADMIN_CHAT_ID = 1492731368
+import os
+TOKEN = os.getnev (8514212882:AAH8bybuxrcd1FoqFViLjf01fRgh96WX8ls)
+ADMIN_CHAT_ID = int(os.getnev(1492731368))
 DATABASE_FILE = "database.json"
 
 # =================== FUNCIONES DE BASE DE DATOS ===================
