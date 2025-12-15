@@ -6,8 +6,8 @@ import json
 
 # =================== CONFIGURACIÓN ===================
 import os
-TOKEN = os.getnev (8514212882:AAH8bybuxrcd1FoqFViLjf01fRgh96WX8ls)
-ADMIN_CHAT_ID = int(os.getnev(1492731368))
+TOKEN = os.getenev (8514212882:AAH8bybuxrcd1FoqFViLjf01fRgh96WX8ls)
+ADMIN_CHAT_ID = int(os.getenev(1492731368))
 DATABASE_FILE = "database.json"
 
 # =================== FUNCIONES DE BASE DE DATOS ===================
